@@ -1,6 +1,6 @@
 /*
-Add Your Names Here
-
+Andrew Briercheck
+Nic Ingerson
 */
 
 void setup() {
