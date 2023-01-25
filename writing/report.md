@@ -1,4 +1,4 @@
-# Report by Add Your Names Here
+# Report by Andrew Briercheck and Nic Ingerson
 
 ## Planning, due on January 27th, 2023 by 9:30am
 
@@ -24,6 +24,7 @@ TODO:
 Describe the application you have chosen to develop and provide a motivation for why it is a useful application. Include  references of all sources you have used throughout this project (URLs are sufficient).
 
 https://www.dfrobot.com/blog-660.html
+https://www.dfrobot.com/product-1454.html?search=Gravity%3A%20Starter%20Kit%20for%%3E
 
 The application we've decided to develop is a temperature sensing module. The arduino will use a temperature sensor to monitor ambient temperature, and will alert you via the buzzer module to let you know if the temperature exceeds a certain range.
  
@@ -31,6 +32,11 @@ The application we've decided to develop is a temperature sensing module. The ar
 
 TODO:
 Explain the characteristics/attributes of your agent, what makes it an agent (within the discussed course content), what makes it rational, what type of an agent it is, and what is its environment task (PEAS).
+
+P:
+E:
+A:
+S:
 
 ## Challenges and Learning Experiences
 
