@@ -10,16 +10,22 @@
 
 ### Hardware 
 
-TODO:
-
 - Arduino board
 
 - in an itemized list, specify specific sensors, motors, etc. to be used in your project
+
+- buzzer module
+
+- temperature sensor
 
 ## Arduino Project
 
 TODO:
 Describe the application you have chosen to develop and provide a motivation for why it is a useful application. Include  references of all sources you have used throughout this project (URLs are sufficient).
+
+https://www.dfrobot.com/blog-660.html
+
+The application we've decided to develop is a temperature sensing module. The arduino will use a temperature sensor to monitor ambient temperature, and will alert you via the buzzer module to let you know if the temperature exceeds a certain range.
 
 ## Agent
 
