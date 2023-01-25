@@ -6,12 +6,21 @@
 
 | Timeline  | Tasks |
 | ----------- | ----------- |
-|   dates    |    task 1   |
+|   1/25    |    Finish Planning   |
+|---------------------------------------|
+|   1/30    | Parts come in (hopefully) |
+|---------------------------------------|
+|   2/1     | Start building and coding |
+|---------------------------------------|
+|   2/4     | Finish troubleshooting  |
+|---------------------------------------|
+|   2/8     | Have the report finalized |
+|---------------------------------------|
 
 ### Hardware 
 
 - Arduino board
-- 
+
 - Digital pirhana LED-R module
 
 - TMP36 temperature sensor
