@@ -21,13 +21,13 @@
 
 - Arduino board
 
-- Digital pirhana LED-R module
+- Digital pirhana LED-R module (https://www.dfrobot.com/product-471.html)
 
-- TMP36 temperature sensor
+- TMP36 temperature sensor (https://www.amazon.com/KOOKYE-Temperature-TMP36-Precision-Raspberry/dp/B01GH32AQU/ref=sr_1_3?keywords=tmp36&qid=1674828116&sr=8-3&th=1)
 
 - hook up wires
 
-- I/O Sensor Expansion Shields V7.1 x1
+- I/O Sensor Expansion Shields V7.1 x1 (https://www.amazon.com/DFROBOT-Gravity-Expansion-Shield-Arduino/dp/B00G3IKO68)
 
 ## Arduino Project
 
