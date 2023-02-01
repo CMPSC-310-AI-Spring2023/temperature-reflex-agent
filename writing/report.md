@@ -50,9 +50,9 @@ Actuators: Blinking LED
 Sensors: Temperature probe.
 
 ## Challenges and Learning Experiences
-
-TODO:
 Discuss any challenges you have encountered during the work on this lab and describe what have you learned.
+
+We had a bit of difficulty first making sense of the "Arduino language". Nic seemed to have a better grasp on it than I did, as he had some experience with C. We didn't have much in way of difficulties building the robot itself. We learned how arduino's function, a bit about the language, etc. and we will hopefully get more comfortable with it as we get into the troubleshooting phase.
 
 ## Ethical Benefits and Implications
 
