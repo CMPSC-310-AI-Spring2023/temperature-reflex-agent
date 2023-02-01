@@ -10,8 +10,10 @@ TMP36 myTMP36(E16, 3.3);
 //Set desired temperature of the environment
 float desiredTemp = 69.0;
 
+int led = 3;
+
 void setup() {
-  TODO
+  pinMode(led, OUTPUT);
 }
 
 void loop() {
@@ -19,6 +21,8 @@ void loop() {
   float envTemp = myTMP36.getTempF();
   //Check if the environment temperature deviates by 10 degrees
   if (envTemp < desiredTemp - 10.0 || envTemp > desiredTemp + 10.0) {
-    return;
+    //Turn on led
+    digitalWrite(led, LOW);
+    delay(2000);
   }
 }
