@@ -60,6 +60,7 @@ TODO:
 In this section, drawing on class discussions and readings, answer the following questions
 
 1. What entities, businesses, organizations do you envision developing the type of the application you have chosen to develop?
+I believe this technology 
 
 2. Who are the intended users of this technology?
 
