@@ -3,6 +3,8 @@ Andrew Briercheck
 Nic Ingerson
 */
 
+#include <TMP36.h>
+
 //Create instance of TMP36
 TMP36 myTMP36(E16, 3.3);
 //Set desired temperature of the environment
