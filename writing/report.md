@@ -36,6 +36,7 @@ Describe the application you have chosen to develop and provide a motivation for
 https://www.dfrobot.com/blog-660.html
 https://www.dfrobot.com/product-1454.html?search=Gravity%3A%20Starter%20Kit%20for%%3E
 https://bc-robotics.com/tutorials/using-a-tmp36-temperature-sensor-with-arduino/#:~:text=The%20TMP36%20temperature%20sensor%20is,making%20it%20a%20popular%20choice.
+https://wiki.dfrobot.com/Digital_piranha_LED_light_module__SKU__DFR0031_
 
 The application we've decided to develop is a temperature sensing module. The arduino will use a temperature sensor to monitor ambient temperature, and will alert you via the LED module to let you know if the temperature exceeds a certain range (+/- 10F from 69F).
 
