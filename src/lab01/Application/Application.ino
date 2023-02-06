@@ -3,26 +3,35 @@ Andrew Briercheck
 Nic Ingerson
 */
 
-#include <TMP36.h>
-
-//Create instance of TMP36
-TMP36 myTMP36(E16, 3.3);
-//Set desired temperature of the environment
-float desiredTemp = 69.0;
-
+int sensePin = A0;
+int sensorInput;
+double temp;
 int led = 3;
 
-void setup() {
-  pinMode(led, OUTPUT);
+//Set desired temperature of the environment
+float desiredTemp = 20.56;
+
+void setup(){
+  Serial.begin(9600);
 }
 
-void loop() {
-  //Get current temperature of the environment
-  float envTemp = myTMP36.getTempF();
-  //Check if the environment temperature deviates by 10 degrees
-  if (envTemp < desiredTemp - 10.0 || envTemp > desiredTemp + 10.0) {
-    //Turn on led
-    digitalWrite(led, LOW);
-    delay(2000);
+void loop(){
+  sensorInput = analogRead(A0);
+  temp = (double)sensorInput / 1024; //find percentage of input reading
+  temp = temp * 5; //multiply by 5V to get voltage
+  temp = temp - 0.5; //Subtract the offset
+  temp = temp * 100; //Convert to degrees (celsius)
+
+  //turn led on if temperature deviates 5 degrees C from desired temp
+  if (temp < desiredTemp - 5.0 || temp > desiredTemp + 5.0){
+    digitalWrite(led, HIGH);
+    Serial.println("LED On");
   }
+  else {
+    digitalWrite(led, LOW);
+  }
+
+  //print the current temperature
+  Serial.print("Current Temperature: ");
+  Serial.println(temp);
 }
