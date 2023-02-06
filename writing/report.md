@@ -60,17 +60,22 @@ TODO:
 In this section, drawing on class discussions and readings, answer the following questions
 
 1. What entities, businesses, organizations do you envision developing the type of the application you have chosen to develop?
-I believe this technology 
+I believe this technology would be valuable in monitoring the environment surroudning the desired object - at the moment it only detects variance in temperature, however we hope this will be able to expand and accomodate additional sensory input including movement speed and proximity to a target.
 
 2. Who are the intended users of this technology?
+The intended target could really be anything you want to able to remotely observe. The initial intention was a "babysitter robot", but this could work to monitor and observe changes to any moveable object. 
 
 3. Who is not supposed to use this technology?
+This product could potentially be used to monitor someone unbeknownst to them, so the only ethical application is on consenting parties.
 
 4. How can the application developed in this lab cause harm?
+Again, tracking changes related to a target without their consent.
 
 5. What solutions could be implemented to avoid the harm or to fix the harm described above?
+Limiting the range of the probe, limiting sensory inout, some sort of authentication prior to initialization?
 
 ## Team Work
 
-TODO:
 Describe the details of your team working strategy, specifically explain how did you complete this work as a team and describe the specific contributions of each team member.
+
+Nic tended to focus on the more software oriented aspects of the project. I did the work relating to assembling the robot, finding schematics and doing the writing portions of the project. 
