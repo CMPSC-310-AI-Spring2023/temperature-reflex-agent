@@ -23,12 +23,13 @@ void loop(){
   temp = temp * 100; //Convert to degrees (celsius)
 
   //turn led on if temperature deviates 5 degrees C from desired temp
-  if (temp < desiredTemp - 5.0 || temp > desiredTemp + 5.0){
+  if (temp < desiredTemp - 2.0 || temp > desiredTemp + 2.0){
     digitalWrite(led, HIGH);
+    //debugging output
     Serial.println("LED On");
   }
   else {
-    digitalWrite(led, LOW);
+    digitalWrite(led, LOW); //turn off LED
   }
 
   //print the current temperature
