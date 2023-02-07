@@ -9,7 +9,7 @@ double temp;
 int led = 3;
 
 //Set desired temperature of the environment
-float desiredTemp = 20.56;
+float desiredTemp = 20.00;
 
 void setup(){
   Serial.begin(9600);
