@@ -10,6 +10,12 @@ The Arduino will continuously read the temperature from the sensor and compare i
 
 This temperature sensing module has many potential applications, including in home automation systems, industrial environments, and scientific research. It can help to prevent damage to equipment or products caused by extreme temperatures and ensure that living spaces are comfortable and safe.
 
+Here are the references that we used when completing this project:
+
+- [TMP36 Temperature Probe](https://bc-robotics.com/tutorials/using-a-tmp36-temperature-sensor-with-arduino/#:~:text=The%20TMP36%20temperature%20sensor%20is)
+- [Digital Pihrana LED Light Module](https://wiki.dfrobot.com/Digital_piranha_LED_light_module__SKU__DFR0031_)
+- [How to Make an LED Blink in Arduino](https://www.dfrobot.com/blog-660.html)
+
 ## Agent
 
 The term "agent" in the context of artificial intelligence refers to an entity that can perceive its environment and take actions to achieve specific goals. In this case, the temperature sensing module can be considered an agent, as it perceives the ambient temperature and takes action to alert the user if it exceeds a certain range.
